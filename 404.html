@@ -4,17 +4,16 @@
     <link href='http://fonts.googleapis.com/css?family=Merriweather:700,300italic,300,400italic,400,700italic,900' rel='stylesheet' type='text/css'>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kyle Tezak</title>
-    <meta name="description" content="Kyle Tezak is an interactive designer in Chicago." />
+    <title>Kyle Tezak | 404</title>
+    <meta name="description" content="Kyle Tezak is a interactive designer in Chicago." />
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">    
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">    <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/custom.css" />
     <script src="js/modernizr.js"></script>
   </head>
-<body onload="document.body.classList.add('loaded');">
-
+  <body onload="document.body.classList.add('loaded');">
+    
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -56,6 +55,18 @@
     </nav>
 
     <!-- main content goes here -->
+
+    <div class="row intro">
+
+    <!-- title -->
+      <div class="small-12 medium-12 large-8 large-centered medium-centered columns">
+        <header>
+        <h1 id="tezak">Oops!</h1>
+        </header>
+        <h2>This page doesn't exist.</h2>
+      </div>
+    <!-- end title -->
+    </div>
 
     <!-- project thumbnails -->
     <div class="row grid-wrap">
@@ -134,8 +145,7 @@
       </div>
   <!-- close the off-canvas menu -->
     <a class="exit-off-canvas"></a>
-</div>
-<!-- /inner-wrap -->
+</div><!-- /inner-wrap -->
 
     
     <script src="js/jquery.js"></script>
@@ -165,6 +175,11 @@
       });
     </script>
 
+    <!-- page specific JS -->
+    <script src="js/jquery.fittext.js"></script>
+    <script type="text/javascript">
+      $("#tezak").fitText(0.45);
+    </script>
 
   </body>
 </html>
