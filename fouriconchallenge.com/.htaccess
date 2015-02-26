@@ -1,0 +1,8 @@
+
+RewriteOptions inherit
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^fouriconchallenge\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.fouriconchallenge\.com$
+RewriteRule ^/?$ "http\:\/\/kyletezak\.com\/four\-icon\-challenge\.php" [R=301,L]
+
