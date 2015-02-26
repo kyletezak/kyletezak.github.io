@@ -15,7 +15,20 @@
   </head>
   <body onload="document.body.classList.add('loaded');">
     
-<?php include_once("inc/analyticstracking.php") ?>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17210938-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
 <?php include("inc/nav.php"); ?>
 
     <!-- main content goes here -->
@@ -110,9 +123,112 @@
     <!-- end project content -->
     </div>
 
-<?php include("inc/thumbnails.php"); ?>
+    <!-- project thumbnails -->
+    <div class="row grid-wrap">
+        <ul class="cbp-ig-grid">
+          <li>
+            <a href="unicef.html">
+              <span class="cbp-ig-icon cbp-ig-icon-unicef"></span>
+              <h2 class="cbp-ig-title">UNICEF</h2>
+              <!-- <span class="cbp-ig-category"></span> -->
+            </a>
+          </li>
+          <li>
+            <a href="the-noun-project.html">
+              <span class="cbp-ig-icon cbp-ig-icon-noun"></span>
+              <h2 class="cbp-ig-title">The Noun Project</h2>
+              <!-- <span class="cbp-ig-category"></span> -->
+            </a>
+          </li>
+          <li>
+            <a href="oculus-rift.html">
+              <span class="cbp-ig-icon cbp-ig-icon-oculus"></span>
+              <h2 class="cbp-ig-title">Oculus Rift</h2>
+              <!-- <span class="cbp-ig-category"></span> -->
+            </a>
+          </li>
+          <li>
+            <a href="logos.html">
+              <span class="cbp-ig-icon cbp-ig-icon-logos"></span>
+              <h2 class="cbp-ig-title">Assorted Marks</h2>
+              <!-- <span class="cbp-ig-category"></span> -->
+            </a>
+          </li>
+          <li>
+            <a href="icons-and-illustration.html">
+              <span class="cbp-ig-icon cbp-ig-icon-illustration"></span>
+              <h2 class="cbp-ig-title">Icons &amp; Illustration</h2>
+              <!-- <span class="cbp-ig-category"></span> -->
+            </a>
+          </li>
+          <li>
+            <a href="four-icon-challenge.html">
+              <span class="cbp-ig-icon cbp-ig-icon-challenge"></span>
+              <h2 class="cbp-ig-title">Four Icon Challenge</h2>
+              <!-- <span class="cbp-ig-category"></span> -->
+            </a>         
+          <li>
+            <a href="heirloom-postcards.html">
+              <span class="cbp-ig-icon cbp-ig-icon-heirloom"></span>
+              <h2 class="cbp-ig-title">Heirloom Postcards</h2>
+              <!-- <span class="cbp-ig-category"></span> -->
+            </a>
+          </li>
+          <li>
+            <a href="wherewithal.html">
+              <span class="cbp-ig-icon cbp-ig-icon-wherewithal"></span>
+              <h2 class="cbp-ig-title">Wherewithal</h2>
+              <!-- <span class="cbp-ig-category"></span> -->
+            </a>
+          </li>
+          <li>
+            <a href="boot-coffee.html">
+              <span class="cbp-ig-icon cbp-ig-icon-boot"></span>
+              <h2 class="cbp-ig-title">Boot Coffee</h2>
+              <!-- <span class="cbp-ig-category"></span> -->
+            </a>
+          </li>
+        </ul>
+    <!-- end project thumbnails   -->
+    </div>
 
-<?php include("inc/footer.php"); ?>
+      <!-- footer -->
+      <div class="row">
+        <div class="small-12 medium-12 large-12 footer text-center columns">
+        <p>Follow me on <a href="https://twitter.com/kyletezak" target="_blank">Twitter</a>. © 2014 all rights reserved.
+        </div>
+      </div>
+  <!-- close the off-canvas menu -->
+    <a class="exit-off-canvas"></a>
+</div><!-- /inner-wrap -->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script src="js/jquery.fittext.js"></script>
+    <script type="text/javascript">
+      $("#tezak").fitText(0.45);
+      $("#unicef").fitText(0.4);
+      $("#noun").fitText(0.45);
+      $("#oculus").fitText(0.55);
+      $("#logos").fitText(0.4);
+      $("#illustration").fitText(0.55);
+      $("#challenge").fitText(0.55);
+      $("#heirloom").fitText(0.55);
+      $("#wherewithal").fitText(0.65);
+      $("#boot").fitText(0.6);
+      $("#info").fitText(0.4);
+    </script>
+    <script src="js/jquery.scrollToTop.min.js"></script>
+    <script>
+      $(function() {
+      $("#toTop").scrollToTop(700);
+      });
+    </script>
+
 
   </body>
 </html>
