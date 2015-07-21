@@ -617,6 +617,43 @@ dl {
   content: "\e609";
 }
 
+.cbp-ig-icon-newpartners:before {
+  content: "\e60a";
+}
+
+.cbp-ig-icon-newamerica:before {
+  content: "\e60b";
+}
+
+.cbp-ig-icon-yoyo:before {
+  content: "\e60c";
+}
+
+.cbp-ig-icon-pollyportfolio:before {
+  content: "\e60d";
+}
+
+.cbp-ig-icon-doodles:before {
+  content: "\e60e";
+}
+
+.cbp-ig-icon-btg:before {
+  content: "\e60f";
+}
+
+.cbp-ig-icon-branddeck:before {
+  content: "\e610";
+}
+
+.cbp-ig-icon-werewolf:before {
+  content: "\e611";
+}
+
+.cbp-ig-icon-ziploc:before {
+  content: "\e612";
+}
+
+
 /* title element */
 .cbp-ig-grid .cbp-ig-title {
   margin: 10px 0 10px 0;
