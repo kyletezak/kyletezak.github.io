@@ -321,6 +321,25 @@ a.menu-icon {
   position: absolute;
 }
 
+/*video*/
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+    margin-bottom: 4em;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 /*scroll to top*/
 #toTop {
     display: none;
@@ -576,6 +595,10 @@ dl {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.cbp-ig-icon-mezzo:before {
+  content: "\e800";
 }
 
 .cbp-ig-icon-unicef:before {
