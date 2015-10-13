@@ -597,6 +597,10 @@ dl {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.cbp-ig-icon-kitchensurfing:before {
+  content: "\e801";
+}
+
 .cbp-ig-icon-mezzo:before {
   content: "\e800";
 }
