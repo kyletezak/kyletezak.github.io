@@ -1,7 +1,7 @@
       <!-- footer -->
       <div class="row">
         <div class="small-12 medium-12 large-12 footer text-center columns">
-        <p>Follow me on <a href="https://twitter.com/kyletezak" target="_blank">Twitter</a>. © 2014 all rights reserved.
+        <p>Follow me on <a href="https://twitter.com/kyletezak" target="_blank">Twitter</a>. All work copyright Kyle Tezak. Forever.
         </div>
       </div>
   <!-- close the off-canvas menu -->
